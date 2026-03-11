@@ -17,9 +17,5 @@
     "url": "https://github.com/Mukesh-Sonu/talent-IQ/issues"
   },
   "homepage": "https://github.com/Mukesh-Sonu/talent-IQ#readme",
-  "description": "",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "inngest": "^3.44.3"
-  }
+  "description": ""
 }
