@@ -1,8 +1,28 @@
 import dotenv from "dotenv";
 dotenv.config({ quiet: true });
 
+const {
+  PORT,
+  NODE_ENV,
+  DB_URL,
+  CLIENT_URL,
+  INNGEST_EVENT_KEY,
+  INNGEST_SIGNING_KEY,
+  STREAM_API_KEY,
+  STREAM_API_SECRET,
+  CLERK_PUBLISHABLE_KEY,
+  CLERK_SECRET_KEY,
+} = process.env;
+
 export const ENV = {
-  PORT: process.env.PORT,
-  NODE_ENV: process.env.NODE_ENV,
-  DB_URL: process.env.DB_URL,
+  PORT,
+  NODE_ENV,
+  DB_URL,
+  CLIENT_URL,
+  INNGEST_EVENT_KEY,
+  INNGEST_SIGNING_KEY,
+  STREAM_API_KEY,
+  STREAM_API_SECRET,
+  CLERK_PUBLISHABLE_KEY,
+  CLERK_SECRET_KEY,
 };
