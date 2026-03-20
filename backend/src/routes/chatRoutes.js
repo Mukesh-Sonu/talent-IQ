@@ -6,4 +6,4 @@ const router = Router();
 
 router.get("/token", protectRoute, getStreamToken);
 
-export default Router;
+export default router;
